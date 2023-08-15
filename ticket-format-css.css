@@ -1,0 +1,268 @@
+.ticket-box {
+    width: 500px;
+    height: 860px;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #000000;
+    box-sizing: border-box;
+    position: relative;
+    border-radius: 10px;
+}
+
+.information-box {
+    width: 450px;
+    height: 675px;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-right: 10px;
+    align-self: center;
+    background-color: #ffffff;
+    border-radius: 15px;
+    border: 10px
+}   
+
+.both-id-name {
+    display: flex;
+    justify-content: space-between;
+}
+
+.full-grade-email {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.scan-code-uuid-display-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.location {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.both-time-date {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+/*Location*/
+
+.location-label {
+    align-self: left;
+    font-family: 'Open Sans';
+    font-size: 15px;
+}
+
+.location-school-label {
+    align-self: left;
+    flex-direction: column;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.location-school-stag-label {
+    align-self: left;
+    flex-direction: column;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-style: italic;
+}
+
+/* Time */
+
+.time-div {
+    flex-direction: column;
+    display: flex;
+}
+
+.time-label {
+    align-self: left;
+    font-family: 'Open Sans';
+    font-size: 15px;
+}
+
+.time-input {
+    align-self: left;
+    flex-direction: column;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+/* Date */
+
+.date-div {
+    flex-direction: column;
+    display: flex;
+}
+
+.date-label {
+    text-align: right;
+    align-self: right;
+    font-family: 'Open Sans';
+    font-size: 15px;
+}
+
+.date-input {
+    align-self: right;
+    flex-direction: column;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.date-label label {
+    align-self: right;
+    font-family: 'Open Sans';
+}
+
+/* Full Name Info*/
+
+.full-name-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.full-name-label label {
+    align-self: left;
+    font-family: 'Open Sans';
+    font-size: 15px;
+}
+
+.full-name-label {
+    font-family: 'Open Sans';
+    font-size: 15px;
+    text-align: left;
+}
+
+.full-name-input {
+    align-self: left;
+    flex-direction: column;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+/*ID Number*/
+
+.id-number-div {
+    flex-direction: column;
+    display: flex;
+}
+
+.id-number-div label {
+    margin-right: 10px;
+}
+
+.id-number-label {
+    font-family: 'Open Sans';
+    font-size: 15px;
+    text-align: right;
+}
+
+.id-number-input {
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: right;
+}
+
+/*Grade Level*/
+
+.grade-level-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.grade-level-label label {
+    align-self: left;
+    font-family: 'Open Sans';
+    font-size: 15px;
+}
+
+.grade-level-label {
+    font-family: 'Open Sans';
+    font-size: 15px;
+    text-align: left;
+}
+
+.grade-level-input {
+    align-self: left;
+    flex-direction: column;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+/* Email Address*/
+
+.email-address-div {
+    flex-direction: column;
+    display: flex;
+}
+
+.email-address-div label {
+    margin-right: 10px;
+}
+
+.email-address-label {
+    font-family: 'Open Sans';
+    font-size: 15px;
+    text-align: right;
+}
+
+.email-address-input {
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: right;
+}
+
+/* Other */
+
+.event-name-label {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    font-size: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:#000000;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.scannable-box {
+    width: 450px;
+    height: 110px;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+    align-self: center;
+    background-color: #ffffff;
+    border-radius: 15px;
+    border: 10px
+}   
+
+.scan-code-uuid-display {
+    font-family: 'Open Sans';
+    font-size: 15px;
+    text-align: center;
+    margin-left: 78px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.scan-code-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
